@@ -87,7 +87,7 @@ while True:
     # ask user for number to be factorised
     to_factor = num_check("\nTo factor (or xxx to quit: ")
 
-    if to_factor == "xx":
+    if to_factor == "xxx":
         break
 
     # get factors for integers that are 2 or more
@@ -109,16 +109,16 @@ while True:
     elif len(all_factors) % 2 == 1:
         comment = f"{to_factor} is a perfect square"
 
-        # set up headings
-        if to_factor > 1:
-            heading = f"Factors of {to_factor}"
-        else:
-            heading = "One is special..."
+    # set up headings
+    if to_factor > 1:
+        heading = f"Factors of {to_factor}"
+    else:
+        heading = "One is special..."
 
-            # output factors and comment
-            print()
-            statement_generator(heading, "*")
-            print(all_factors)
-            print(comment)
+        # output factors and comment
+        print()
+        statement_generator(heading, "*")
+        print(all_factors)
+        print(comment)
 
-            print("Thank you for using the factors calculator")
+        print("Thank you for using the factors calculator")
