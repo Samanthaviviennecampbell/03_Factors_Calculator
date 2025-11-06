@@ -115,10 +115,10 @@ while True:
     else:
         heading = "One is special..."
 
-        # output factors and comment
-        print()
-        statement_generator(heading, "*")
-        print(all_factors)
-        print(comment)
+    # output factors and comment
+    print()
+    statement_generator(heading, "*")
+    print(all_factors)
+    print(comment)
 
-        print("Thank you for using the factors calculator")
+    print("Thank you for using the factors calculator")
